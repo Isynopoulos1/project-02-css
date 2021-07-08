@@ -2,6 +2,7 @@ body {
   background-color: black;
 }
 
+/* GLOBAL TAG CHANGES */
 h1 {
   color: blue;
   text-align: center;
@@ -10,17 +11,30 @@ h1 {
   font-weight: normal;
   font-size: 50px;
 }
-
 a {
+  display: flex;
+  justify-content: center;
   font-family: verdana;
   font-size: 16px;
   color: aquamarine;
 }
 
-.p {
-  text-align: center;
+/* VIDEOS CHANGES */
+.video {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+  align-items: center;
+  width: 30%;
 }
 
+/* IMAGES CHANGES */
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .seccion h2 {
   font-family: verdana;
   text-align: center;
@@ -34,36 +48,21 @@ a {
   font-family: verdana;
   font-size: 21px;
 }
-
 .images img:first-child {
   width: 70%;
   align-self: center;
 }
-.images {
-  display: flex;
-  flex-direction: column;
-}
-
 .images img:last-child {
-  background-image: url(./images/image4.png);
   margin-top: 40px;
   width: 80px;
   align-self: center;
 }
 
+/* SECCION FOOTER */
 .copyright {
   margin-top: 20px;
   color: gray;
   text-align: right;
   font-family: verdana;
   font-size: 10px;
-}
-
-.video {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  margin-left: 35%;
-  align-items: center;
-  width: 30%;
 }
